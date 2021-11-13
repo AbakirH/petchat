@@ -1,3 +1,4 @@
+require('dotenv');
 const http = require('http');
 const express = require('express');
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
